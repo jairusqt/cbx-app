@@ -1,21 +1,21 @@
 <template >
   <div>
     <v-container id="inspire">
-      <v-row no-gutters>
+      <v-row style="height: 500px;">
         <v-col
           md="6"
           offset-md="3"
-          class="mt-12"
+          align-self="end"
         >
           <v-card
-            class="pa-2 mt-12 elevation-5"
+            class="pa-2 elevation-5"
             outlined
             tile
             height="100"
             
           > 
               <v-col cols="12">
-            <v-text-field
+              <v-text-field
               v-model="message"
               outlined
               clearable
