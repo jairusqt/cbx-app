@@ -2,13 +2,14 @@
   <div id="app">
   <v-app id="inspire">
     <v-container>
-      <v-row>
+      <v-row justify="center">
         <v-col
           class="mt-12"
           v-for="transaction in transactions"
           :key="transaction"
           cols="9"
-          sm="3"          
+          sm="3"
+             
         >
           <v-card
             class="mt-12"

@@ -2,7 +2,7 @@
   <div id="app">
   <v-app id="inspire">
     <v-container>
-      <v-row>
+      <v-row justify="center">
         <v-col
           class="mt-12"
           v-for="product in products"
